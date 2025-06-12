@@ -5,16 +5,7 @@ import os
 
 def preprocess_energy_data(input_path="data/raw/datos_electricos_organizados.json",
                            output_path="data/raw/cleaned_energy_data.csv"):
-    """
-    Procesa el archivo JSON de datos eléctricos y guarda un CSV limpio en data/raw.
     
-    Args:
-        input_path (str): Ruta del archivo JSON de entrada. Default: "data/raw/datos_electricos_organizados.json"
-        output_path (str): Ruta donde se guardará el CSV procesado. Default: "data/raw/cleaned_energy_data.csv"
-    
-    Returns:
-        pd.DataFrame: DataFrame con los datos procesados
-    """
     # Verificar existencia del archivo
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"No se encontró el archivo en: {input_path}")
