@@ -215,7 +215,7 @@ class EnergyMLTrainer:
 
 # Ejecutar
 if __name__ == "__main__":
-    processor = EnergyDataProcessor("datos_electricos_organizados.json")
+    processor = EnergyDataProcessor("data/processed/datos_electricos_organizados.json")
     processor.load_data()
     df = processor.process_all_data()
     trainer = EnergyMLTrainer(df)
