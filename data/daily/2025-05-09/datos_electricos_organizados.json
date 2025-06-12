@@ -1,0 +1,149 @@
+{
+  "2022": {
+    "enero": [],
+    "febrero": [],
+    "marzo": [],
+    "abril": [],
+    "mayo": [],
+    "junio": [],
+    "julio": [],
+    "agosto": [],
+    "septiembre": [],
+    "octubre": [],
+    "noviembre": [],
+    "diciembre": []
+  },
+  "2023": {
+    "enero": [],
+    "febrero": [],
+    "marzo": [],
+    "abril": [],
+    "mayo": [],
+    "junio": [],
+    "julio": [],
+    "agosto": [],
+    "septiembre": [],
+    "octubre": [],
+    "noviembre": [],
+    "diciembre": []
+  },
+  "2024": {
+    "enero": [],
+    "febrero": [],
+    "marzo": [],
+    "abril": [],
+    "mayo": [],
+    "junio": [],
+    "julio": [
+      {
+        "enlace": "http://www.cubadebate.cu/noticias/2024/07/06/une-se-pronostica-una-afectacion-de-390-mw-en-el-horario-pico/",
+        "fecha": "2024-07-06 09:04:00",
+        "datos": {
+          "zonas_con_problemas": [],
+          "fecha_reporte": "ayer",
+          "prediccion": {
+            "disponibilidad": 2730,
+            "demanda_maxima": 3050,
+            "afectacion": 390,
+            "deficit": 320,
+            "respaldo": null,
+            "horario_pico": "20:50 horas"
+          },
+          "info_matutina": {
+            "hora": "07:00 horas",
+            "disponibilidad": 2540,
+            "demanda": 2420,
+            "deficit": null,
+            "proyeccion_mediodia": {
+              "afectacion_estimada": 200,
+              "hora_estimada": "mediodía"
+            }
+          },
+          "plantas": {
+            "averia": [
+              {
+                "planta": "CTE Santa Cruz",
+                "unidad": 2,
+                "unidades": [],
+                "tipo": ""
+              },
+              {
+                "planta": "CTE Rente",
+                "unidad": 3,
+                "unidades": [],
+                "tipo": ""
+              },
+              {
+                "planta": "CTE Felton",
+                "unidad": 2,
+                "unidades": [],
+                "tipo": ""
+              }
+            ],
+            "mantenimiento": [
+              {
+                "planta": "CTE Santa Cruz",
+                "unidad": 1,
+                "unidades": [],
+                "tipo": ""
+              }
+            ],
+            "limitacion_termica": {
+              "mw_afectados": 409,
+              "tipo": "WW"
+            }
+          },
+          "distribuida": {
+            "motores_con_problemas": {
+              "total": 46,
+              "impacto_mw": 210,
+              "causa": "combustible"
+            },
+            "problemas_lubricantes": {
+              "mw_afectados": null,
+              "unidades_afectadas": ""
+            },
+            "patanas_con_problemas": []
+          },
+          "paneles_solares": {
+            "cantidad_parques": null,
+            "produccion_mwh": null,
+            "nuevos_parques": null,
+            "capacidad_instalada": null,
+            "periodo_produccion": ""
+          },
+          "impacto": {
+            "horas_totales": null,
+            "continuidad_afectacion": null,
+            "maximo": {
+              "mw": 397,
+              "hora": "20:50 horas",
+              "fecha": "ayer",
+              "nota": ""
+            },
+            "tendencia": null
+          }
+        }
+      }
+    ],
+    "agosto": [],
+    "septiembre": [],
+    "octubre": [],
+    "noviembre": [],
+    "diciembre": []
+  },
+  "2025": {
+    "enero": [],
+    "febrero": [],
+    "marzo": [],
+    "abril": [],
+    "mayo": [],
+    "junio": [],
+    "julio": [],
+    "agosto": [],
+    "septiembre": [],
+    "octubre": [],
+    "noviembre": [],
+    "diciembre": []
+  }
+}
