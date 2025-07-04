@@ -46,6 +46,9 @@ Un resumen de máximo 2 páginas que contenga:
 - Estadísticas relevantes sobre el consumo energético en Cuba
 - Breve mención de la crisis energética actual
 
+La situación del sistema eléctrico de Cuba es "grave" con "largas horas de apagón" debido al mal estado de sus termoeléctricas, la falta de financiamiento para su reparación y la escasez de combustible. Durante las últimas semanas los cubanos han enfrentado cortes de energía de hasta 21 horas al día en algunas provincias de la isla, cuyo sistema eléctrico solo está produciendo 45 gigawatts de los 63 que consume en cada jornada, según el director de la Unión Eléctrica de Cuba (UNE), Alfredo López. Cuba, en una profunda crisis económica desde hace más de cuatro años, cuenta con un ruinoso sistema eléctrico, que colapsó en marzo por cuarta vez en menos de seis meses. Esta red está integrada por ocho desgastadas termoeléctricas, algunas centrales eléctricas flotantes alquiladas a una empresa turca y generadores, que funcionan fundamentalmente con diésel que Cuba tiene grandes dificultades para importar.
+
+La situacion que se describe abre paso al deseo y la necesidad de hacer una  predicción precisa de la demanda energética y los posibles déficits del sistema eléctrico
 ### 2.2 Justificación del Proyecto
 
 **¿Qué incluir aquí?**
@@ -109,6 +112,13 @@ Un resumen de máximo 2 páginas que contenga:
 - Frecuencia de los datos (diaria, horaria)
 - Limitaciones de las fuentes
 
+Los datos fueros sacados de las publicaciones diarias del SEN en el canal de cubadebate
+En el proceso de recopilacion de la informacion se hizo un sraper que entraba a los titulos donde se mencionan las formas que se ve como se habla de la empresa electrica 
+y cada informe diario se paso por un llm con una api key de firework.ai, para extraer en formato json estructurado la informacion que brinda el reporte diario
+Los datos fueron escogidos desde septiembre del 2021 hasta la actualidad teniendo en cuenta que fue este el tiempo en que comenzaron los apagones,
+los datos se extraen por dia
+Tener en cuenta que faltan dias dentro de la base de datos cullos titulos estamos buscando para asegurarnos que el scraper lo esta detectando e incluyendo a la base de datos
+
 ### 4.2 Descripción de Variables
 
 **¿Qué incluir aquí?**
@@ -152,6 +162,8 @@ Un resumen de máximo 2 páginas que contenga:
 - Análisis de tendencias temporales
 - Identificación de patrones estacionales
 - Correlaciones entre variables
+
+
 
 ### 5.2 Patrones de Consumo Identificados
 
@@ -392,3 +404,6 @@ Un resumen de máximo 2 páginas que contenga:
 4. **Evidencia**: Cada afirmación debe estar respaldada por datos o referencias
 5. **Consistencia**: Usar terminología uniforme a lo largo del documento
 6. **Visualizaciones**: Incluir gráficos claros y profesionales en cada sección relevante
+
+**Binliografia**
+- Exploración de la predicción de series temporales del consumo de energía mediante XGBoost y validación cruzada [Ehsan Nabatchian,10 de enero de 2024]
