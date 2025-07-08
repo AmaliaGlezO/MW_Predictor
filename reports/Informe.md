@@ -407,3 +407,9 @@ Tener en cuenta que faltan dias dentro de la base de datos cullos titulos estamo
 
 **Binliografia**
 - Exploración de la predicción de series temporales del consumo de energía mediante XGBoost y validación cruzada [Ehsan Nabatchian,10 de enero de 2024]
+
+- Time Series Forecasting with XGBoost and LightGBM: Predicting Energy Consumption.   George Kamtziridis   Feb 27, 2023
+
+- Machine Learning-Based Model for Prediction of Power Consumption in Smart Grid.  Shamik Tiwari, Anurag Jain, Kusum Yadav, Rabie Ramadan , Received September 18, 2020; accepted August 31, 2021 
+
+- Evaluating machine learning algorithms for energy consumption prediction in electric vehicles: A comparative study
